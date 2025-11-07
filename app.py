@@ -37,10 +37,27 @@ st.sidebar.info(
     "It uses a lightweight 1D-CNN (Convolutional Neural Network) "
     "trained on the PTBDB dataset to classify heartbeats as **Normal** or **Abnormal**."
 )
-# TODO: Update this link to your "big data" GitHub project
+# --- This is the new, more professional sidebar section ---
+
+st.sidebar.header("Project Resources")
 st.sidebar.markdown(
-    "Want to see the full, 5-class analysis on the 600MB dataset? \n"
-    "Check out the [full research notebook here](https://github.com/your-username/your-MAIN-repo-link)."
+    """
+    - **[Data Source (Kaggle)](https://www.kaggle.com/datasets/shayanfazeli/heartbeat)**
+    - **[View This Project on GitHub](https://github.com/Mohit9912/ECG-arrhythmia-classifier)**
+    
+    
+    """
+)
+st.sidebar.header("Technology Stack")
+st.sidebar.markdown(
+    """
+    - **Python**
+    - **Streamlit**
+    - **TensorFlow (Keras)**
+    - **Pandas**
+    - **Matplotlib**
+    """
+
 )
 
 st.title("🩺 ECG Arrhythmia Classifier")
