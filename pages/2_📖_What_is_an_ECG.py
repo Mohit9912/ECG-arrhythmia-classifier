@@ -33,7 +33,7 @@ col1, col2 = st.columns([3, 2])
 
 with col1:
     # --- DRAW THE INTERACTIVE PLOT ---
-    fig, ax = plt.subplots(figsize=(8, 4))
+    fig, ax = plt.subplots(figsize=(8, 6))
     # Plot the beat with a thicker line
     ax.plot(normal_beat, color='#1f77b4', linewidth=3)
     
@@ -46,7 +46,7 @@ with col1:
     ax.axvspan(33, 45, color='blue', alpha=0.2, label='T-Wave')
 
     # Annotate the R-Peak with an arrow
-    ax.annotate('R-Peak', xy=(22, 1.0), xytext=(25, 1.1),
+    ax.annotate('R-Peak', xy=(22, 1.0), xytext=(25, 0.99),
                 arrowprops=dict(facecolor='black', shrink=0.05, width=2, headwidth=8),
                 fontsize=12, fontweight='bold')
 
