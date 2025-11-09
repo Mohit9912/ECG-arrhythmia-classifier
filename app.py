@@ -31,7 +31,7 @@ uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 
 if uploaded_file is not None:
     try:
-        # Load data
+
         df = pd.read_csv(uploaded_file, header=None)
         
         # Validate file
@@ -91,7 +91,7 @@ if uploaded_file is not None:
         # END NEW SECTION
         # ========================================================
 
-        # (Optional) Detailed Drill-Down
+        #  Detailed Drill-Down
         with st.expander("🔬 Drill Down: Inspect Individual Heartbeats"):
             beat_index = st.slider("Select a heartbeat to view:", 0, len(df) - 1, 0)
             selected_beat = X_data[beat_index]
