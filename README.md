@@ -79,6 +79,14 @@ Downloading your model file... Please wait.
 SCREENSHOTS 
 ---
 
+<img width="1920" height="958" alt="Screenshot from 2025-11-15 19-58-51" src="https://github.com/user-attachments/assets/4015142e-aff3-43e8-87bc-bc0b5dcf3397" />
+
+
+
+
+https://github.com/user-attachments/assets/a26bb801-2c14-477c-aec8-726ceed4656e
+
+
 
 🚀 Live Demo
 ---
